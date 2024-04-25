@@ -1,0 +1,3 @@
+`ls -lR | grep flag00` on every folder at '/'
+i found 'john' in '/usr/sbin'
+i put this 'cdiiddwpgswtgt' in dcode.fr/chiffre-cesar and i got 'nottoohardhere'
