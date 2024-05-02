@@ -1,0 +1,11 @@
+ltrace ./getflag
+gdb getflag
+b ptrace
+n
+i r
+set $eax=0
+n
+n
+i r
+set $eax=3014
+n

@@ -1,0 +1,7 @@
+ltrace ./level13
+gdb ./level13
+b getuid
+r
+n
+i r
+set $eax=4242
