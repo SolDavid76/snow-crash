@@ -1,2 +1,0 @@
-find / -type f -exec cat {} \; 2> /dev/null | grep flag01
-flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash is form '/etc/passwd' so i put '42hDRfypTqqnw' i John and i get abcedfg

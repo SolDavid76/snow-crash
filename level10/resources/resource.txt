@@ -1,0 +1,7 @@
+the exec read a file and sends it to the host at port 6969
+
+lets create a server using nc -lk 127.0.0.1 6969
+
+Lets retry , still blocked by rights on the token file.
+We open exec and we see that there is a call to access then open, 
+We can try to pass the access then change the file b4 the open call

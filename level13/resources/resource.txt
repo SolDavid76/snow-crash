@@ -1,0 +1,14 @@
+The exec returns 'UID 2013 started us but we we expect 4242', lets see what's inside
+
+ltrace ./level13
+
+Nothing too surprising but it checks our ID lets try to change it in gdb to 4242
+
+gdb ./level13
+
+b getuid
+r
+n
+i r
+set $eax=4242
+

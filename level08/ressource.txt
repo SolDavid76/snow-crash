@@ -1,1 +1,0 @@
-ln -s ~/token /tmp/level08

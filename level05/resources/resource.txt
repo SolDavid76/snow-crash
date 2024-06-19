@@ -1,0 +1,11 @@
+We get a mail in '/var/mail'
+
+echo /var/mail/level05
+it shows us that there seem to be a crontab running '/usr/sbin/openarenaserver' every 2 mn
+
+echo /usr/sbin/openarenaserver
+The script executes everything in /opt/openarenaserver then deletes it.
+
+We put a script that executes getflag in the dir
+
+we wait max 2mn.

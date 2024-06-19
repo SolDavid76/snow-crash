@@ -1,0 +1,7 @@
+There is a program that executes a php code.
+
+We can see in the php file that there is a regex that might executes shell commands in it
+
+The program takes a file as an  argument and send it in the php code.
+
+We write an file that can pass the first regex rule and execute getflag 

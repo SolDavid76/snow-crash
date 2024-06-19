@@ -1,0 +1,5 @@
+The executable returns level07, let's see inside what does it call
+
+It use something like system('echo LOGNAME') so we can change logname by a subshell call to 'getflag'
+
+LOGNAME=\`getflag\`

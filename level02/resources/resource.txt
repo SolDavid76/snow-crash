@@ -1,0 +1,5 @@
+There is a .pcap file in the HomeDir
+
+Writing 'pcapReader.py' to read data from the pcap file
+
+Seems like an history of ssh exchanges so we can extract the password inputs given by the user: 'ft_waNDReL0L'

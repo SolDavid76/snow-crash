@@ -1,3 +1,5 @@
+NO EXEC?? Lets try to break through getflag itself
+
 ltrace ./getflag
 gdb getflag
 b ptrace

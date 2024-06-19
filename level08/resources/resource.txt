@@ -1,0 +1,7 @@
+The exec tries to read a file then prints it contents in the terminal.
+But blocks if the file to read contains 'token' in its name
+So lets create a link to the token file renamed to smthing else. 
+
+ln -s ~/token /tmp/level08
+
+We got the passwd to flag08 then we getflag for the passwd to lvl09

@@ -1,0 +1,5 @@
+There is a server running using the .lua file given at 127.0.0.1:5151
+
+We connect to it with nc 
+
+We can see a call to echo (creating a subshell) using the password given so we can inject another subshell here.

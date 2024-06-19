@@ -1,0 +1,7 @@
+After some tests, there is a token that seems to have been crypted with the exec 'level09'
+
+level09 change the string passed as av[1] so that av[1][i] = av[1][i] + i and returns the string.
+
+Lets reverse it.
+
+We get the flag.
